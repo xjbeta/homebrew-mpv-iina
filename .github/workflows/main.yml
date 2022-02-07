@@ -22,7 +22,7 @@ jobs:
       - name: Tap mpv-iina
         shell: zsh {0}
         run: |
-          brew tap iina/homebrew-mpv-iina
+          brew tap xjbeta/homebrew-mpv-iina
           brew developer on
 
       - name: Prepare sd
